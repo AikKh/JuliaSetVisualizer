@@ -156,7 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="JuliaSet.hpp" />
-    <ClInclude Include="RayMarching.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Julia.frag" />

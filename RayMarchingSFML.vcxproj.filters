@@ -23,9 +23,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RayMarching.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="JuliaSet.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
