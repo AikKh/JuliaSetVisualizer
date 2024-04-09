@@ -44,7 +44,6 @@ public:
                     sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
                     sf::Vector2f worldMousePosition = window.mapPixelToCoords(mousePosition);
 
-                    std::cout << worldMousePosition.x << ", " << worldMousePosition.y << std::endl;
                     _prevCord = convertToComplex(worldMousePosition);
                 }
 
@@ -74,7 +73,6 @@ public:
                     sf::Vector2f worldMousePosition = window.mapPixelToCoords(mousePosition);
 
                     sf::Vector2f pos = convertToComplex(worldMousePosition);
-                    std::cout << "constant: " << pos.x << ", " << pos.y << std::endl;
 
                     shader.setUniform("constant", pos);
                 }

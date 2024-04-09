@@ -41,7 +41,7 @@ vec2 squareComplex(in vec2 z)
 
 float modulusComplex(in vec2 z)
 {
-    return sqrt(pow(z.x, 2) - pow(z.y, 2));
+    return sqrt(pow(z.x, 2) + pow(z.y, 2));
 }
 
 float inJuliaSet(in vec2 z, in int iterCount)
